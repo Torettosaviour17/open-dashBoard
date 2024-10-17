@@ -55,10 +55,10 @@ export const DASHBOARD_SIDEBAR_BOTTOM_LINKS =[
     icon: <HiOutlineCog />
   },
   {
-    key: 'settings',
-    label: 'Settings',
-    path: '/settings',
+    key: 'support',
+    label: 'help $ support',
+    path: '/support',
     icon: <HiOutlineQuestionMarkCircle />
-  }
+  },
 ]
    
