@@ -4,7 +4,7 @@ import {
   HiOutlineChatAlt,
   HiOutlineSearch,
 } from "react-icons/hi";
-import { Popover } from '@headlessui/react';
+// import { Popover } from '@headlessui/react';
 
 
 export default function header() {
@@ -22,13 +22,13 @@ export default function header() {
         />
       </div>
       <div className="flex items-center gap-2 pr-2">
-        <Popover className="relative">
+        {/* <Popover className="relative">
           {({ open }) => (
             <Popover.Button className="inline-flex items-center text-gray-700 hover:text-opacity-100 focus:outline-none active:bg-gray-50">
               <HiOutlineChatAlt fontSize={24} />
             </Popover.Button>
           )}
-        </Popover>
+        </Popover> */}
         <HiOutlineChatAlt font={24} />
         <HiOutlineBell font={24} />
       </div>
